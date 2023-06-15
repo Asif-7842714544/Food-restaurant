@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
-import { ShoppingCartRounded } from "@mui/icons-material";
 import pizza from "../images/pizza.png";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import Rightmenu from "./Rightmenu";
-import { BsCart3, BsCartCheckFill } from "react-icons/bs";
+import { BsCart3 } from "react-icons/bs";
 import { useStateValue } from "./StateProvider";
 
 function Header() {
