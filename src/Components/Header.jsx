@@ -32,7 +32,7 @@ function Header() {
         <BsCart3
         size={25}
           onClick={toggleDrawer}
-          className=" "
+          className="cursor-pointer"
         />
         <div className="w-5 h-5 bg-orange-600 rounded-full min-w-[20px] min-h-[20px] flex  justify-center absolute top-[-8px] right-0 animate-bounce ">
           <p className="font-extrabold text-white  ">{cart.length}</p>
